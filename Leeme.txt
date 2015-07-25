@@ -1,0 +1,51 @@
+=== Anonim-Links === 
+
+Etiquetas: anonimizar, anonimizar, máscara, ocultar referente, referente en blanco, la remisión, los registros, los visitantes, a la intimidad
+Requiere al menos: 2.0.2
+Probado hasta: 4.2.3
+Etiqueta Estable: 1.0
+
+Anonimizar todos los enlaces externos con el servicio de anonim.es
+
+
+
+== Descripción ==
+
+Puede utilizar este plugin para evitar que su sitio aparezca en los registros del servidor de páginas que se refiere como un referente. Los operadores de las páginas no pueden ver de dónde vienen sus visitantes más.
+
+Por ejemplo, este plugin convertirá automáticamente todos los enlaces externos a este formato
+
+https://anonim.es/?http://dominio.com/
+
+Este es un enlace anónimo para dominio.com sin que la página de origen aparezca como un referente en los archivos de registro de la página enlazada.
+
+Plugin basado en Anonymize Links de Schalk Burger.
+
+
+
+== Instalación ==
+
+1. Subir **Anonim-Links** al directorio **/wp-content/plugins/**
+2. Activar el plugin a través del menú "Plugins" en WordPress
+3. (Opcional) Añadir dominios que no desee anonimizar en Ajustes > Anonimizar Enlaces
+
+
+
+== Preguntas frecuentes ==
+
+= ¿Qué ventajas tiene anonimizar enlaces externos? =
+
+Los webmasters pueden utilizar esta herramienta para evitar que su sitio aparezca en los registros del servidor de páginas como referer. Los operadores de las páginas no pueden ver de dónde vienen sus visitantes.
+
+Algunas personas lo hacen por privacidad. Algunas personas lo hacen para mantener sus fuentes desconocidas.
+
+= ¿Qué es un Referer? =
+
+[Haga clic aquí] (https://es.wikipedia.org/wiki/Referer_(Cabecera_HTTP)) para la descripción de Wikipedia.
+
+
+
+== == Cambios
+
+= 1,0 =
+* Versión inicial
